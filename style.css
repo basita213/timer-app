@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 5em;
+  }
+  
+  .rectangle {
+    width: 700px;
+    height: 250px;
+    background-color: #24005f;
+    color: white;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
